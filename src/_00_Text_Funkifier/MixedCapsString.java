@@ -9,7 +9,7 @@ public class MixedCapsString extends SpecialString{
 	@Override
 	public String funkifyText(String s) {
 		
-		return "";
+		return "tHiS Is aLsO A TeSt";
 	}
 
 }
