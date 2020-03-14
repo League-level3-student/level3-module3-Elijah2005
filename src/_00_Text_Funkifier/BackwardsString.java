@@ -4,15 +4,17 @@ public class BackwardsString extends SpecialString {
 
 	public BackwardsString(String s) {
 		super(s);
-		for (int i = 0; i <s.length(); i--) {
-			
-		}
 	}
 
 	@Override
 	public String funkifyText(String s) {
-		
-		return "tset a si sihT";
+		String newString = "";
+		for (int i = s.length() - 1; i >= 0; i--) {
+			newString = newString + s.charAt(i);
+		}
+
+		return newString;
+
 	}
 
 }
